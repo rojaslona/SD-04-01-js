@@ -5,7 +5,12 @@ const arr = [
   ]
   
   // Type your code below this line!
-  
-  
-  
+
+  arr[0].push(10);
+  arr.push(11,12,13);
+  arr[2].splice(1, 0, 100);
+  arr[1].reverse();
+ 
   // Type your code above this line!
+
+  console.log(arr);

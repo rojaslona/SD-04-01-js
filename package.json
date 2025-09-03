@@ -1,0 +1,15 @@
+{
+  "name": "sd-04-01-js",
+  "version": "1.0.0",
+  "description": "Laboratorio de arrays",
+  "license": "MIT",
+  "author": "Josue Cano",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}

@@ -1,31 +1,85 @@
-# Instructions
-Arrays are a simple data structure used everywhere in programming. There are many ways to interact with arrays in JavaScript.
+# Laboratorio de Arrays JS
 
-**Today, you will be exploring arrays, and teaching yourselves different methods for manipulating them.**
+## Requisitos previos
 
-For each of these tasks, type your code directly in the task file - the marking scripts will evaluate what you have written!
+Editor de código (ej. VS Code).
 
-## Tasks
+Node.js instalado (para ejecutar programas en la terminal).
 
-1. Use the `arr.push()` method to populate an empty array with the numbers 1 to 20, in order.
+## Preparación
 
-2. Use the `arr.reverse()` method to reverse the order of the given array.
+Clonar el respositorio
+```bash
+git clone sshurl
+```
+Moverse al repositorio clonado
+```bash
+cd nombreDelRepo
+```
 
-3. Use the `arr.splice()` method to insert the missing number in the given array at the correct position.
+Instalar las dependencias
+```bash
+npm install
+```
+Abrir en vscode
+```bash
+code .
+```
+## Instrucciones
+Los arrays son una estructura de datos simple usada en todas partes de la programación.  
+Existen muchas formas de interactuar con arrays en JavaScript.
 
-4. Use the `arr.splice()` method to delete one of the two duplicate numbers in the given array.
+**Hoy, estarán explorando arrays y enseñándose a sí mismos diferentes métodos para manipularlos.**
 
+Para cada una de estas tareas, escriban su código directamente en el archivo de la tarea – ¡los scripts de evaluación revisarán lo que hayan escrito!
 
-## Extra Tasks
+## Tareas
 
-If you have completed the above tasks, try the following extra tasks for a bonus challenge!
+1. Usen el método `arr.push()` para llenar un array vacío con los números del 1 al 20, en orden.
 
-5. Use `join()` on the given array to print a string of numbers from it, separated by commas only - no spaces!
+2. Usen el método `arr.reverse()` para invertir el orden del array dado.
 
-6. Use `concat()` to merge the two given arrays, arr1 and arr2, in order, and then print the new array that's created.
+3. Usen el método `arr.splice()` para insertar el número faltante en el array dado en la posición correcta.
 
-7. A matrix is an array of arrays, representing a grid with rows and columns. Use this task to experiment with matrices!
-    * Can you add a single number to an existing row?
-    * Can you add a whole new row of numbers?
-    * Can you remove a single number from a single row?
-    * Can you reverse one of the rows without affecting the others
+4. Usen el método `arr.splice()` para eliminar uno de los dos números duplicados en el array dado.
+
+## Tareas Extra
+
+Si han completado las tareas anteriores, prueben las siguientes tareas extra como un reto adicional:
+
+5. Usen `join()` en el array dado para imprimir una cadena de números separada solo por comas – ¡sin espacios!
+
+6. Usen `concat()` para unir los dos arrays dados, arr1 y arr2, en orden, y luego impriman el nuevo array que se crea.
+
+7. Una matriz es un array de arrays, que representa una cuadrícula con filas y columnas.  
+   Usen esta tarea para experimentar con matrices:
+   * ¿Pueden agregar un solo número a una fila existente?
+   * ¿Pueden agregar una fila completa de números?
+   * ¿Pueden eliminar un solo número de una fila específica?
+   * ¿Pueden invertir una de las filas sin afectar a las demás?
+
+## Test
+
+Tus tareas deberán pasar los siguientes tests
+
+1. task 1: Deberá tener los números del 1 al 20 en orden y el array debera tener un length de 20
+
+2. task 2: Deberá tener los números del 1 al 16 en orden ascendente y un length de 16
+
+3. task 3: Deberá tener el numero 8 en el indice 7 y un length de 12
+
+4. task 4: No contiene ningun elemento duplicado
+
+### Ejecutar test
+
+```bash
+npm run test
+```
+
+Si te dice que vitest no es reconocido aún después de haber instalado las dependencias
+
+Instala manualmente vitest
+
+```bash
+npm i -D vitest
+```

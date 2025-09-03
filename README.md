@@ -25,6 +25,10 @@ Abrir en vscode
 ```bash
 code .
 ```
+Ejecutar el archivo para ver lo que hace tu código
+```bash
+node --watch nombreArchivo
+```
 ## Instrucciones
 Los arrays son una estructura de datos simple usada en todas partes de la programación.  
 Existen muchas formas de interactuar con arrays en JavaScript.
